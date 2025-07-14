@@ -1,13 +1,3 @@
-// @ts-check
-import antfu from '@antfu/eslint-config'
+import vueConfig from '@night-tea/eslint-config/vue.js'
 
-export default antfu(
-  {
-    unocss: true,
-    formatters: true,
-    pnpm: true,
-    rules: {
-      'no-console': 'off',
-    },
-  },
-)
+export default vueConfig

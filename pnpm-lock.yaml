@@ -206,6 +206,12 @@ importers:
       '@intlify/unplugin-vue-i18n':
         specifier: catalog:build
         version: 6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.30.0(jiti@2.4.2))(rollup@4.44.1)(typescript@5.8.3)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
+      '@night-tea/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@night-tea/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@shikijs/markdown-it':
         specifier: catalog:build
         version: 3.8.0(markdown-it-async@2.2.0)
@@ -299,15 +305,24 @@ importers:
 
   packages/eslint-config:
     devDependencies:
+      '@antfu/eslint-config':
+        specifier: catalog:lint
+        version: 4.16.2(@unocss/eslint-plugin@66.3.3(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.30.0(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.30.0(jiti@2.4.2)))(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
       '@eslint/js':
         specifier: catalog:lint
         version: 9.30.0
+      '@unocss/eslint-config':
+        specifier: catalog:build
+        version: 66.3.3(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
       eslint:
         specifier: catalog:lint
         version: 9.30.0(jiti@2.4.2)
       eslint-config-prettier:
         specifier: catalog:lint
         version: 10.1.1(eslint@9.30.0(jiti@2.4.2))
+      eslint-plugin-format:
+        specifier: catalog:lint
+        version: 1.0.1(eslint@9.30.0(jiti@2.4.2))
       eslint-plugin-only-warn:
         specifier: catalog:lint
         version: 1.1.0

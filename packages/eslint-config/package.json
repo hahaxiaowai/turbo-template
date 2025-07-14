@@ -4,15 +4,18 @@
   "type": "module",
   "private": true,
   "exports": {
-    "./base": "./base.js"
+    "./vue": "./vue.js"
   },
   "devDependencies": {
     "@eslint/js": "catalog:lint",
-    "eslint": "catalog:lint",
     "eslint-config-prettier": "catalog:lint",
     "eslint-plugin-only-warn": "catalog:lint",
     "eslint-plugin-turbo": "catalog:lint",
     "typescript": "catalog:dev",
-    "typescript-eslint": "catalog:lint"
+    "typescript-eslint": "catalog:lint",
+    "eslint": "catalog:lint",
+    "eslint-plugin-format": "catalog:lint",
+    "@unocss/eslint-config": "catalog:build",
+    "@antfu/eslint-config": "catalog:lint"
   }
 }

@@ -28,6 +28,8 @@
     "@antfu/eslint-config": "catalog:lint",
     "@iconify-json/carbon": "catalog:dev",
     "@intlify/unplugin-vue-i18n": "catalog:build",
+    "@night-tea/eslint-config": "workspace:*",
+    "@night-tea/typescript-config": "workspace:*",
     "@shikijs/markdown-it": "catalog:build",
     "@types/markdown-it-link-attributes": "catalog:types",
     "@types/nprogress": "catalog:types",
