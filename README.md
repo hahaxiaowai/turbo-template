@@ -11,3 +11,9 @@ a simple template for turbo applications with Vue
 
 ## special operations
 - replace `@night-tea` with your own namespace
+
+
+## catalog
+``` bash
+ pnpx codemod pnpm/catalog
+ ```
