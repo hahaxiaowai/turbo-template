@@ -1,0 +1,3 @@
+{
+  "extends": "@night-tea/typescript-config/vue.json"
+}

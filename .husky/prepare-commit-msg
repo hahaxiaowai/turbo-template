@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-npx devmoji -e --lint
+# npx devmoji -e --lint

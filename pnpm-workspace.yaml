@@ -53,13 +53,15 @@ catalogs:
     prettier: ^3.6.0
     lint-staged: ^15.5.0
     "@antfu/eslint-config": ^4.11.0
-
   repo:
     "@turbo/gen": ^2.5.0
     turbo: ^2.5.4
   types:
     "@types/markdown-it-link-attributes": ^3.0.5
     "@types/nprogress": ^0.2.3
+  tauri:
+    "@tauri-apps/cli": ^2.6.2
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+

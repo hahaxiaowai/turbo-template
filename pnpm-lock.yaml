@@ -170,6 +170,142 @@ importers:
         specifier: catalog:dev
         version: 5.8.3
 
+  apps/tauri-template:
+    dependencies:
+      '@unhead/vue':
+        specifier: catalog:frontend
+        version: 2.0.12(vue@3.5.17(typescript@5.8.3))
+      '@unocss/reset':
+        specifier: catalog:frontend
+        version: 66.3.3
+      '@vueuse/core':
+        specifier: catalog:frontend
+        version: 13.5.0(vue@3.5.17(typescript@5.8.3))
+      nprogress:
+        specifier: catalog:frontend
+        version: 0.2.0
+      pinia:
+        specifier: catalog:frontend
+        version: 3.0.3(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
+      vue:
+        specifier: catalog:frontend
+        version: 3.5.17(typescript@5.8.3)
+      vue-i18n:
+        specifier: catalog:frontend
+        version: 11.1.9(vue@3.5.17(typescript@5.8.3))
+      vue-router:
+        specifier: catalog:frontend
+        version: 4.5.1(vue@3.5.17(typescript@5.8.3))
+    devDependencies:
+      '@antfu/eslint-config':
+        specifier: catalog:lint
+        version: 4.16.2(@unocss/eslint-plugin@66.3.3(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.30.0(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.30.0(jiti@2.4.2)))(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
+      '@iconify-json/carbon':
+        specifier: catalog:dev
+        version: 1.2.10
+      '@intlify/unplugin-vue-i18n':
+        specifier: catalog:build
+        version: 6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.30.0(jiti@2.4.2))(rollup@4.44.1)(typescript@5.8.3)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
+      '@night-tea/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@night-tea/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@shikijs/markdown-it':
+        specifier: catalog:build
+        version: 3.8.0(markdown-it-async@2.2.0)
+      '@tauri-apps/cli':
+        specifier: ^2.6.2
+        version: 2.6.2
+      '@types/markdown-it-link-attributes':
+        specifier: catalog:types
+        version: 3.0.5
+      '@types/nprogress':
+        specifier: catalog:types
+        version: 0.2.3
+      '@unocss/eslint-config':
+        specifier: catalog:build
+        version: 66.3.3(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
+      '@vitejs/plugin-vue':
+        specifier: catalog:build
+        version: 5.2.4(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
+      '@vue-macros/volar':
+        specifier: catalog:dev
+        version: 3.0.0-beta.15(typescript@5.8.3)(vue-tsc@2.2.10(typescript@5.8.3))(vue@3.5.17(typescript@5.8.3))
+      '@vue/test-utils':
+        specifier: catalog:dev
+        version: 2.4.6
+      eslint:
+        specifier: catalog:lint
+        version: 9.30.0(jiti@2.4.2)
+      eslint-plugin-format:
+        specifier: catalog:lint
+        version: 1.0.1(eslint@9.30.0(jiti@2.4.2))
+      https-localhost:
+        specifier: catalog:dev
+        version: 4.7.1
+      lint-staged:
+        specifier: catalog:lint
+        version: 15.5.2
+      markdown-it-link-attributes:
+        specifier: catalog:build
+        version: 4.0.1
+      rollup:
+        specifier: catalog:build
+        version: 4.44.1
+      shiki:
+        specifier: catalog:build
+        version: 3.8.0
+      simple-git-hooks:
+        specifier: catalog:dev
+        version: 2.13.0
+      taze:
+        specifier: catalog:dev
+        version: 19.1.0
+      typescript:
+        specifier: catalog:dev
+        version: 5.8.3
+      unocss:
+        specifier: catalog:build
+        version: 66.3.3(postcss@8.5.6)(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
+      unplugin-auto-import:
+        specifier: catalog:build
+        version: 19.3.0(@vueuse/core@13.5.0(vue@3.5.17(typescript@5.8.3)))
+      unplugin-vue-components:
+        specifier: catalog:build
+        version: 28.8.0(@babel/parser@7.28.0)(vue@3.5.17(typescript@5.8.3))
+      unplugin-vue-macros:
+        specifier: catalog:build
+        version: 2.14.5(@vueuse/core@13.5.0(vue@3.5.17(typescript@5.8.3)))(esbuild@0.25.5)(rollup@4.44.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))(vue-tsc@2.2.10(typescript@5.8.3))(vue@3.5.17(typescript@5.8.3))
+      unplugin-vue-markdown:
+        specifier: catalog:build
+        version: 28.3.1(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))
+      unplugin-vue-router:
+        specifier: catalog:build
+        version: 0.12.0(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
+      vite:
+        specifier: catalog:build
+        version: 6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0)
+      vite-bundle-visualizer:
+        specifier: catalog:build
+        version: 1.2.1(rollup@4.44.1)
+      vite-plugin-inspect:
+        specifier: catalog:build
+        version: 11.3.0(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))
+      vite-plugin-pwa:
+        specifier: catalog:build
+        version: 0.21.2(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
+      vite-plugin-vue-devtools:
+        specifier: catalog:build
+        version: 7.7.7(rollup@4.44.1)(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
+      vite-plugin-vue-layouts:
+        specifier: catalog:build
+        version: 0.11.0(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
+      vue-tsc:
+        specifier: catalog:dev
+        version: 2.2.10(typescript@5.8.3)
+
   apps/vue-template:
     dependencies:
       '@unhead/vue':
@@ -523,11 +659,6 @@ packages:
   '@babel/helpers@7.27.6':
     resolution: {integrity: sha512-muE8Tt8M22638HU31A3CgfSUciwz1fhATfoVai05aPXGor//CdWDCbnlY1yvBPo07njuVOCNGCSp/GTt12lIug==}
     engines: {node: '>=6.9.0'}
-
-  '@babel/parser@7.27.7':
-    resolution: {integrity: sha512-qnzXzDXdr/po3bOTbTIQZ7+TxNKxpkN5IifVLXS+r7qwynkZfPyjZfE7hCXbo7IoO9TNcSyibgONsf2HauUd3Q==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
 
   '@babel/parser@7.28.0':
     resolution: {integrity: sha512-jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==}
@@ -950,10 +1081,6 @@ packages:
 
   '@babel/traverse@7.28.0':
     resolution: {integrity: sha512-mGe7UK5wWyh0bKRfupsUchrQGqvDbZDbKJw+kcRGSmdHVYrv+ltd0pnpDTVpiTqnaBru9iEvA8pz8W46v0Amwg==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/types@7.27.7':
-    resolution: {integrity: sha512-8OLQgDScAOHXnAz2cV+RfzzNMipuLVBz2biuAJFMV9bfkNf393je3VM8CLkjQodW5+iWsSJdSgSWT6rsZoXHPw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.28.1':
@@ -1624,6 +1751,82 @@ packages:
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
+
+  '@tauri-apps/cli-darwin-arm64@2.6.2':
+    resolution: {integrity: sha512-YlvT+Yb7u2HplyN2Cf/nBplCQARC/I4uedlYHlgtxg6rV7xbo9BvG1jLOo29IFhqA2rOp5w1LtgvVGwsOf2kxw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@tauri-apps/cli-darwin-x64@2.6.2':
+    resolution: {integrity: sha512-21gdPWfv1bP8rkTdCL44in70QcYcPaDM70L+y78N8TkBuC+/+wqnHcwwjzb+mUyck6UoEw2DORagSI/oKKUGJw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@tauri-apps/cli-linux-arm-gnueabihf@2.6.2':
+    resolution: {integrity: sha512-MW8Y6HqHS5yzQkwGoLk/ZyE1tWpnz/seDoY4INsbvUZdknuUf80yn3H+s6eGKtT/0Bfqon/W9sY7pEkgHRPQgA==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+
+  '@tauri-apps/cli-linux-arm64-gnu@2.6.2':
+    resolution: {integrity: sha512-9PdINTUtnyrnQt9hvC4y1m0NoxKSw/wUB9OTBAQabPj8WLAdvySWiUpEiqJjwLhlu4T6ltXZRpNTEzous3/RXg==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tauri-apps/cli-linux-arm64-musl@2.6.2':
+    resolution: {integrity: sha512-LrcJTRr7FrtQlTDkYaRXIGo/8YU/xkWmBPC646WwKNZ/S6yqCiDcOMoPe7Cx4ZvcG6sK6LUCLQMfaSNEL7PT0A==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@tauri-apps/cli-linux-riscv64-gnu@2.6.2':
+    resolution: {integrity: sha512-GnTshO/BaZ9KGIazz2EiFfXGWgLur5/pjqklRA/ck42PGdUQJhV/Ao7A7TdXPjqAzpFxNo6M/Hx0GCH2iMS7IA==}
+    engines: {node: '>= 10'}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tauri-apps/cli-linux-x64-gnu@2.6.2':
+    resolution: {integrity: sha512-QDG3WeJD6UJekmrtVPCJRzlKgn9sGzhvD58oAw5gIU+DRovgmmG2U1jH9fS361oYGjWWO7d/KM9t0kugZzi4lQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tauri-apps/cli-linux-x64-musl@2.6.2':
+    resolution: {integrity: sha512-TNVTDDtnWzuVqWBFdZ4+8ZTg17tc21v+CT5XBQ+KYCoYtCrIaHpW04fS5Tmudi+vYdBwoPDfwpKEB6LhCeFraQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@tauri-apps/cli-win32-arm64-msvc@2.6.2':
+    resolution: {integrity: sha512-z77C1oa/hMLO/jM1JF39tK3M3v9nou7RsBnQoOY54z5WPcpVAbS0XdFhXB7sSN72BOiO3moDky9lQANQz6L3CA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@tauri-apps/cli-win32-ia32-msvc@2.6.2':
+    resolution: {integrity: sha512-TmD8BbzbjluBw8+QEIWUVmFa9aAluSkT1N937n1mpYLXcPbTpbunqRFiIznTwupoJNJIdtpF/t7BdZDRh5rrcg==}
+    engines: {node: '>= 10'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@tauri-apps/cli-win32-x64-msvc@2.6.2':
+    resolution: {integrity: sha512-ItB8RCKk+nCmqOxOvbNtltz6x1A4QX6cSM21kj3NkpcnjT9rHSMcfyf8WVI2fkoMUJR80iqCblUX6ARxC3lj6w==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  '@tauri-apps/cli@2.6.2':
+    resolution: {integrity: sha512-s1/eyBHxk0wG1blLeOY2IDjgZcxVrkxU5HFL8rNDwjYGr0o7yr3RAtwmuUPhz13NO+xGAL1bJZaLFBdp+5joKg==}
+    engines: {node: '>= 10'}
+    hasBin: true
 
   '@tybys/wasm-util@0.10.0':
     resolution: {integrity: sha512-VyyPYFlOMNylG45GoAe0xDoLwWuowvf92F9kySqzYh8vmYm7D2u4iUJKa1tOUpS70Ku13ASrOkS4ScXFsTaCNQ==}
@@ -5439,7 +5642,7 @@ snapshots:
 
   '@babel/helper-annotate-as-pure@7.27.3':
     dependencies:
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
 
   '@babel/helper-compilation-targets@7.27.2':
     dependencies:
@@ -5485,14 +5688,14 @@ snapshots:
   '@babel/helper-member-expression-to-functions@7.27.1':
     dependencies:
       '@babel/traverse': 7.28.0
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-module-imports@7.27.1':
     dependencies:
       '@babel/traverse': 7.28.0
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
     transitivePeerDependencies:
       - supports-color
 
@@ -5507,7 +5710,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.27.1':
     dependencies:
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
 
   '@babel/helper-plugin-utils@7.27.1': {}
 
@@ -5532,7 +5735,7 @@ snapshots:
   '@babel/helper-skip-transparent-expression-wrappers@7.27.1':
     dependencies:
       '@babel/traverse': 7.28.0
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
     transitivePeerDependencies:
       - supports-color
 
@@ -5554,10 +5757,6 @@ snapshots:
     dependencies:
       '@babel/template': 7.27.2
       '@babel/types': 7.28.1
-
-  '@babel/parser@7.27.7':
-    dependencies:
-      '@babel/types': 7.27.7
 
   '@babel/parser@7.28.0':
     dependencies:
@@ -6079,8 +6278,8 @@ snapshots:
   '@babel/template@7.27.2':
     dependencies:
       '@babel/code-frame': 7.27.1
-      '@babel/parser': 7.27.7
-      '@babel/types': 7.27.7
+      '@babel/parser': 7.28.0
+      '@babel/types': 7.28.1
 
   '@babel/traverse@7.28.0':
     dependencies:
@@ -6093,11 +6292,6 @@ snapshots:
       debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
-
-  '@babel/types@7.27.7':
-    dependencies:
-      '@babel/helper-string-parser': 7.27.1
-      '@babel/helper-validator-identifier': 7.27.1
 
   '@babel/types@7.28.1':
     dependencies:
@@ -6373,8 +6567,8 @@ snapshots:
       '@intlify/shared': 11.1.9
       '@intlify/vue-i18n-extensions': 8.0.0(@intlify/shared@11.1.9)(@vue/compiler-dom@3.5.17)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
       '@rollup/pluginutils': 5.2.0(rollup@4.44.1)
-      '@typescript-eslint/scope-manager': 8.35.0
-      '@typescript-eslint/typescript-estree': 8.35.0(typescript@5.8.3)
+      '@typescript-eslint/scope-manager': 8.36.0
+      '@typescript-eslint/typescript-estree': 8.36.0(typescript@5.8.3)
       debug: 4.4.1
       fast-glob: 3.3.3
       js-yaml: 4.1.0
@@ -6395,7 +6589,7 @@ snapshots:
 
   '@intlify/vue-i18n-extensions@8.0.0(@intlify/shared@11.1.9)(@vue/compiler-dom@3.5.17)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))':
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
     optionalDependencies:
       '@intlify/shared': 11.1.9
       '@vue/compiler-dom': 3.5.17
@@ -6690,6 +6884,53 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.12
 
+  '@tauri-apps/cli-darwin-arm64@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-darwin-x64@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-linux-arm-gnueabihf@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-linux-arm64-gnu@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-linux-arm64-musl@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-linux-riscv64-gnu@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-linux-x64-gnu@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-linux-x64-musl@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-win32-arm64-msvc@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-win32-ia32-msvc@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli-win32-x64-msvc@2.6.2':
+    optional: true
+
+  '@tauri-apps/cli@2.6.2':
+    optionalDependencies:
+      '@tauri-apps/cli-darwin-arm64': 2.6.2
+      '@tauri-apps/cli-darwin-x64': 2.6.2
+      '@tauri-apps/cli-linux-arm-gnueabihf': 2.6.2
+      '@tauri-apps/cli-linux-arm64-gnu': 2.6.2
+      '@tauri-apps/cli-linux-arm64-musl': 2.6.2
+      '@tauri-apps/cli-linux-riscv64-gnu': 2.6.2
+      '@tauri-apps/cli-linux-x64-gnu': 2.6.2
+      '@tauri-apps/cli-linux-x64-musl': 2.6.2
+      '@tauri-apps/cli-win32-arm64-msvc': 2.6.2
+      '@tauri-apps/cli-win32-ia32-msvc': 2.6.2
+      '@tauri-apps/cli-win32-x64-msvc': 2.6.2
+
   '@tybys/wasm-util@0.10.0':
     dependencies:
       tslib: 2.8.1
@@ -6803,7 +7044,7 @@ snapshots:
 
   '@typescript-eslint/project-service@8.35.0(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.35.0(typescript@5.8.3)
+      '@typescript-eslint/tsconfig-utils': 8.36.0(typescript@5.8.3)
       '@typescript-eslint/types': 8.36.0
       debug: 4.4.1
       typescript: 5.8.3
@@ -7317,7 +7558,7 @@ snapshots:
 
   '@vue-macros/reactivity-transform@1.1.6(vue@3.5.17(typescript@5.8.3))':
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       '@vue-macros/common': 1.16.1(vue@3.5.17(typescript@5.8.3))
       '@vue/compiler-core': 3.5.17
       '@vue/shared': 3.5.17
@@ -7430,7 +7671,7 @@ snapshots:
       '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.28.0)
       '@babel/template': 7.27.2
       '@babel/traverse': 7.28.0
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
       '@vue/babel-helper-vue-transform-on': 1.4.0
       '@vue/babel-plugin-resolve-type': 1.4.0(@babel/core@7.28.0)
       '@vue/shared': 3.5.17
@@ -7445,14 +7686,14 @@ snapshots:
       '@babel/core': 7.28.0
       '@babel/helper-module-imports': 7.27.1
       '@babel/helper-plugin-utils': 7.27.1
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       '@vue/compiler-sfc': 3.5.17
     transitivePeerDependencies:
       - supports-color
 
   '@vue/compiler-core@3.5.17':
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       '@vue/shared': 3.5.17
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -7465,7 +7706,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.17':
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       '@vue/compiler-core': 3.5.17
       '@vue/compiler-dom': 3.5.17
       '@vue/compiler-ssr': 3.5.17
@@ -7666,17 +7907,17 @@ snapshots:
 
   ast-kit@1.4.3:
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       pathe: 2.0.3
 
   ast-kit@2.1.1:
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       pathe: 2.0.3
 
   ast-walker-scope@0.6.2:
     dependencies:
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.0
       ast-kit: 1.4.3
 
   async-function@1.0.0: {}
@@ -10832,7 +11073,7 @@ snapshots:
 
   unplugin-vue-router@0.12.0(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3)):
     dependencies:
-      '@babel/types': 7.27.7
+      '@babel/types': 7.28.1
       '@vue-macros/common': 1.16.1(vue@3.5.17(typescript@5.8.3))
       ast-walker-scope: 0.6.2
       chokidar: 4.0.3
